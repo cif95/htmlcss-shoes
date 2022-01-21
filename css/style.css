@@ -3,3 +3,20 @@
 	padding:0;
 	box-sizing: border-box;
 }
+
+section{
+	width: 100vw;
+	height: 100vh;
+}
+
+#blue-shoes{
+	background-color: rgba(255,0,0,255);
+}
+
+#white-shoes{
+	background-color: rgba(0,128,0,255);
+}
+
+#turquoise-shoes{
+	background-color: rgba(255,255,0,255);
+}
