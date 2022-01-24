@@ -5,6 +5,13 @@
 	font-family: 'Rubik Mono One', sans-serif;
 }
 
+header { 
+	position:fixed;
+	top: 20px;
+	right:20px;
+	z-index:1;
+}
+
 nav>ul li{
 	padding:10px;
 	margin-left:20px;
@@ -68,13 +75,6 @@ div.item h2:hover{
 
 h2:not(#turquoise-shoes>div.item h2){
 	color:rgba(255,255,0,255);
-}
-
-#fixed-nav-bar { 
-	position:fixed;
-	top: 20px;
-	right:20px;
-	z-index:1;
 }
 
 #blue-shoes{
